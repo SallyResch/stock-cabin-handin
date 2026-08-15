@@ -1,0 +1,1 @@
+export const TAGS = ['food',"cleaning","tools","hardware","linen", "safety", "leisure", "hygiene"] as const;

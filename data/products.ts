@@ -1,22 +1,18 @@
 import { ProductType } from "@/types/productType";
 import { locations } from "./locations";
-import { Users } from "./users";
-import { TAGS } from "./tags";
 import { UNITS } from "./units";
 
 
 export const products: ProductType[]=[
     {
-        id: crypto.randomUUID(),
-        name: "Toilett paper",
-        location: locations[1],
-        quantity: 6,
-        unit: UNITS[2],
-        adjustBy: 1,
-        threshold: 5,
-        tags: [TAGS[7], TAGS[2]],
-        note:"Its probably more then 50.. but its an estimate",
-        addedBy: Users[0]
+      id: crypto.randomUUID(),
+      name: "Toilett paper",
+      location: locations[1],
+      quantity: 6,
+      unit: UNITS[1],
+      adjustBy: 1,
+      threshold: 5,
+      note:"Its probably more then 50.. but its an estimate",
     },
     {
     id: crypto.randomUUID(),
@@ -26,21 +22,20 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[1]],
+
     note: "Totally out! Need to buy dark roast before next trip",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
     name: "Olive oil",
     location: locations[0], 
     quantity: 1,
-    unit: UNITS[3],
+    unit: UNITS[4],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[1]],
     note: "Extra virgin",
-    addedBy: Users[1],
+
   },
   {
     id: crypto.randomUUID(),
@@ -50,9 +45,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[3]],
     note: "One half-full bottle left under the sink",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -62,9 +56,8 @@ export const products: ProductType[]=[
     unit: UNITS[1],
     adjustBy: 1,
     threshold: 6,
-    tags: [TAGS[6]],
     note: "Upper cabinet",
-    addedBy: Users[1],
+
   },
   {
     id:crypto.randomUUID(),
@@ -74,9 +67,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[1]],
     note: "Size 1x4",
-    addedBy: Users[0],
+
   },
   {
     id:crypto.randomUUID(),
@@ -86,9 +78,8 @@ export const products: ProductType[]=[
     unit: UNITS[0],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[1]],
     note: "Jasmine rice 1kg",
-    addedBy: Users[1],
+
   },
   {
     id:crypto.randomUUID(),
@@ -98,9 +89,8 @@ export const products: ProductType[]=[
     unit: UNITS[0],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[1]],
     note: "Penne and Spaghetti",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -110,9 +100,8 @@ export const products: ProductType[]=[
     unit: UNITS[1],
     adjustBy: 10,
     threshold: 25,
-    tags: [TAGS[3]],
     note: "In the blue plastic container",
-    addedBy: Users[1],
+
   },
   {
     id: crypto.randomUUID(),
@@ -122,9 +111,8 @@ export const products: ProductType[]=[
     unit: UNITS[4],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[0], TAGS[4]],
     note: "Bottom shelf in the back",
-    addedBy: Users[1],
+
   },
   {
     id: crypto.randomUUID(),
@@ -134,9 +122,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[2], TAGS[3]],
     note: "Out of stock! Need for bbq",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -146,9 +133,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[3]],
     note: "In the cabinet under the sink",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -158,9 +144,8 @@ export const products: ProductType[]=[
     unit: UNITS[1],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[3]],
     note: "Need to buy sensitive skin type",
-    addedBy: Users[1],
+
   },
   {
     id: crypto.randomUUID(),
@@ -170,9 +155,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[0]],
     note: "Stored in the wardrobe top shelf",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -182,9 +166,8 @@ export const products: ProductType[]=[
     unit: UNITS[1],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[0]],
     note: "Clean and folded in the dresser",
-    addedBy: Users[1],
+
   },
   {
     id: crypto.randomUUID(),
@@ -194,9 +177,8 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 5,
-    tags: [TAGS[0]],
     note: "For TV remotes, stored in side-table drawer",
-    addedBy: Users[0],
+
   },
   {
     id: crypto.randomUUID(),
@@ -206,8 +188,6 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 2,
-    tags: [TAGS[2]],
     note: "Long matches on the mantelpiece",
-    addedBy: Users[1],
   },
 ];

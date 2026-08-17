@@ -11,7 +11,5 @@ export type ProductType = {
     unit: UnitType,
     adjustBy: number,
     threshold: number,
-    tags: TagType[],
-    note: string,
-    addedBy: UserType
+    note: string
 }

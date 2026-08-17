@@ -3,7 +3,6 @@ import StockCard from "@/components/StockCard"
 import userEvent from "@testing-library/user-event"
 import { ProductType } from "@/types/productType"
 import { UNITS } from "@/data/units"
-import { TAGS } from "@/data/tags"
 import { CookingPotIcon } from "lucide-react"
 
 const baseProduct: ProductType = {
@@ -14,12 +13,7 @@ const baseProduct: ProductType = {
     unit: UNITS[0],
     adjustBy: 1,
     threshold: 1,
-    tags: [TAGS[0]],
     note: "Homemade",
-    addedBy: {
-        name: "Danny",
-        role: "User"
-    }
 }
 
 describe("Handle inventory balance - view & units", () => {
@@ -34,7 +28,7 @@ describe("Handle inventory balance - view & units", () => {
     test("Renders the unit correctly", () => {
         const productWithRolls = { ...baseProduct, unit: UNITS[3] };
         render(<StockCard product={productWithRolls} />)
-        expect(screen.getByText("package")).toBeInTheDocument();
+        expect(screen.getByText("pkg")).toBeInTheDocument();
     })
 
     test("Renders quantity and unit together in the stock display container", () => {

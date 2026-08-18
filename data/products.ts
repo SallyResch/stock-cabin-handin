@@ -2,7 +2,6 @@ import { ProductType } from "@/types/productType";
 import { locations } from "./locations";
 import { UNITS } from "./units";
 
-
 export const products: ProductType[]=[
     {
       id: crypto.randomUUID(),
@@ -22,7 +21,6 @@ export const products: ProductType[]=[
     unit: UNITS[3],
     adjustBy: 1,
     threshold: 1,
-
     note: "Totally out! Need to buy dark roast before next trip",
 
   },
@@ -46,7 +44,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 1,
     note: "One half-full bottle left under the sink",
-
   },
   {
     id: crypto.randomUUID(),
@@ -57,7 +54,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 6,
     note: "Upper cabinet",
-
   },
   {
     id:crypto.randomUUID(),
@@ -68,7 +64,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 1,
     note: "Size 1x4",
-
   },
   {
     id:crypto.randomUUID(),
@@ -79,7 +74,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "Jasmine rice 1kg",
-
   },
   {
     id:crypto.randomUUID(),
@@ -90,7 +84,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "Penne and Spaghetti",
-
   },
   {
     id: crypto.randomUUID(),
@@ -101,7 +94,6 @@ export const products: ProductType[]=[
     adjustBy: 10,
     threshold: 25,
     note: "In the blue plastic container",
-
   },
   {
     id: crypto.randomUUID(),
@@ -112,7 +104,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "Bottom shelf in the back",
-
   },
   {
     id: crypto.randomUUID(),
@@ -123,7 +114,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "Out of stock! Need for bbq",
-
   },
   {
     id: crypto.randomUUID(),
@@ -134,7 +124,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "In the cabinet under the sink",
-
   },
   {
     id: crypto.randomUUID(),
@@ -145,7 +134,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 1,
     note: "Need to buy sensitive skin type",
-
   },
   {
     id: crypto.randomUUID(),
@@ -156,7 +144,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 1,
     note: "Stored in the wardrobe top shelf",
-
   },
   {
     id: crypto.randomUUID(),
@@ -167,7 +154,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 2,
     note: "Clean and folded in the dresser",
-
   },
   {
     id: crypto.randomUUID(),
@@ -178,7 +164,6 @@ export const products: ProductType[]=[
     adjustBy: 1,
     threshold: 5,
     note: "For TV remotes, stored in side-table drawer",
-
   },
   {
     id: crypto.randomUUID(),
